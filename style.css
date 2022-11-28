@@ -1,0 +1,209 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.conteiner{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:700px 50px;
+    
+   
+}
+.l-left{
+    
+    
+    
+    
+}
+.l-right{
+    
+}
+.l-bottom{
+    
+    grid-column: 1/5;
+}
+
+#img1{
+    width: 230px;
+    height: 130px;
+    border-radius: 9px;
+}
+
+#principal{
+
+    width: 70%;
+    height: 400px;
+    
+    
+    
+   
+}
+#conteiner-img{
+    display:flex;
+    margin-left: 200px;
+    margin-top: 100px;
+
+    
+}
+
+ol{
+    display: flex;
+    list-style-type: none;
+    font-size: 11px;
+    font-family: 'Nunito', sans-serif;
+    
+   
+
+    
+}
+li{
+    margin: 9px;
+    margin-top:30px;
+  
+}
+
+.l-right{
+    display: grid;
+    
+}
+#personagem{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#ps{
+    font-size:9px ;
+    margin-left:9px ;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+#h1{
+    font-size: 20px;
+    margin-left:9px;
+    padding-top: 10px;
+    
+    
+}
+
+.input-pesquisa{
+    border: 1px solid black;
+    display: inline-block;
+    background-color: white;
+    padding: 4px;
+    border-radius: 9px;
+    border: none;
+    margin-left: 9px;
+    margin-top: 30px;
+   
+}
+input{
+    border: none;
+    outline:none ;
+    padding: 2px;
+    
+    
+    
+}
+#lupa{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+p{
+    font-size: 17px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+#conjunto{
+    margin-left:9px;
+    padding-top:9px ;
+    
+   
+   }
+
+.img2,.img3.img3,.img4,.img5{
+    padding: 4px;
+   
+    
+}
+
+#conjunto-de-imagens{
+    margin-left:-4px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: forestgreen;
+}
+
+
+#principal{
+    overflow: hidden;
+    margin-top: -100px;
+    height: 700px;
+    width: 450px;
+    border-radius: 0% 20% 0% 0%;
+    
+}
+
+
+@media (max-width:1116px){
+    #conteiner-img{
+        display:none;
+    }
+    .conteiner{
+        display:grid;
+        justify-content: center;
+        grid-template-columns: auto;
+        margin:0 auto;
+    }
+    .l-right{
+        margin: auto;
+        align-content: center ;
+    }
+
+ 
+}
+
+@media (max-width:480px) and(min-widht:410){
+   #conjunto-de-imagens{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        
+   }
+   #personagem{
+    margin-right:30px;
+}
+}
+
+@media(max-width:444px){
+    ol{
+        text-align: center;
+    }
+
+    #personagem{
+        margin-right:30px;
+    }
+}
+
